@@ -42,7 +42,7 @@ describe('refactory routes', () => {
     //   .send({ product: 'Widget', quantity: 1 });
 
     const res = await Order.insert({ product: 'Widget', quantity: 1 });
-    console.log('response------', res.body);
+    // console.log('response------', res.body);
 
     // const res = await Order.getById(order.id);
 
